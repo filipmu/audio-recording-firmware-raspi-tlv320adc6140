@@ -7,9 +7,12 @@ For audio classification using deep learning related to this project see https:/
 
 
 script autorecord.py depends on:
+
+```
 sudo apt install opus-tools
 sudo apt install vorbis-tools
 sudo apt-get install flac
 pip install mutagen
 pip install PyAudio
 pip install numpy
+```

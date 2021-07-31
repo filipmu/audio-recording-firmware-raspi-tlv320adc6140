@@ -1,0 +1,373 @@
+
+*+*******************************
+Starting Run at2021-07-05 02:45:55 PM
+ Run will produce 120 files each of 60.0 minutes.
+Path:/home/pi/recordings/
+Audio Cards/n0->ADCX140: bcm2835-i2s-dir-hifi dir-hifi-0 (hw:0,0)
+1->sysdefault
+2->lavrate
+3->samplerate
+4->speexrate
+5->pulse
+6->upmix
+7->vdownmix
+8->default
+Full Device Info:{'index': 0, 'structVersion': 2, 'name': 'ADCX140: bcm2835-i2s-dir-hifi dir-hifi-0 (hw:0,0)', 'hostApi': 0, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.005804988662131519, 'defaultLowOutputLatency': -1.0, 'defaultHighInputLatency': 0.034829931972789115, 'defaultHighOutputLatency': -1.0, 'defaultSampleRate': 44100.0}
+is format supported? True
+Creating Album: lake week at under cabin deck on 2021-07-05 02:45:56 PM
+CPU Temp=47.078
+recording file:/home/pi/recordings/lake week-2021-07-05--14-45-56-1.opus
+CPU Temp=46.002
+recording file:/home/pi/recordings/lake week-2021-07-05--15-45-56-2.opus
+CPU Temp=45.464
+recording file:/home/pi/recordings/lake week-2021-07-05--16-45-56-3.opus
+CPU Temp=45.464
+recording file:/home/pi/recordings/lake week-2021-07-05--17-45-56-4.opus
+CPU Temp=45.464
+recording file:/home/pi/recordings/lake week-2021-07-05--18-45-56-5.opus
+CPU Temp=44.388
+recording file:/home/pi/recordings/lake week-2021-07-05--19-45-56-6.opus
+CPU Temp=43.312
+recording file:/home/pi/recordings/lake week-2021-07-05--20-45-56-7.opus
+CPU Temp=40.622
+recording file:/home/pi/recordings/lake week-2021-07-05--21-45-56-8.opus
+CPU Temp=39.546
+recording file:/home/pi/recordings/lake week-2021-07-05--22-45-55-9.opus
+CPU Temp=39.546
+recording file:/home/pi/recordings/lake week-2021-07-05--23-45-56-10.opus
+CPU Temp=37.932
+recording file:/home/pi/recordings/lake week-2021-07-06--00-45-55-11.opus
+CPU Temp=37.932
+recording file:/home/pi/recordings/lake week-2021-07-06--01-45-55-12.opus
+CPU Temp=36.856
+recording file:/home/pi/recordings/lake week-2021-07-06--02-45-55-13.opus
+CPU Temp=36.856
+recording file:/home/pi/recordings/lake week-2021-07-06--03-45-55-14.opus
+CPU Temp=36.856
+recording file:/home/pi/recordings/lake week-2021-07-06--04-45-55-15.opus
+CPU Temp=36.856
+recording file:/home/pi/recordings/lake week-2021-07-06--05-45-57-16.opus
+CPU Temp=37.932
+recording file:/home/pi/recordings/lake week-2021-07-06--06-46-01-17.opus
+CPU Temp=37.394
+recording file:/home/pi/recordings/lake week-2021-07-06--07-46-01-18.opus
+CPU Temp=37.932
+recording file:/home/pi/recordings/lake week-2021-07-06--08-46-01-19.opus
+CPU Temp=38.47
+recording file:/home/pi/recordings/lake week-2021-07-06--09-46-04-20.opus
+CPU Temp=35.78
+recording file:/home/pi/recordings/lake week-2021-07-06--10-46-06-21.opus
+CPU Temp=36.318
+recording file:/home/pi/recordings/lake week-2021-07-06--11-46-06-22.opus
+CPU Temp=36.318
+recording file:/home/pi/recordings/lake week-2021-07-06--12-46-06-23.opus
+CPU Temp=35.78
+recording file:/home/pi/recordings/lake week-2021-07-06--13-46-08-24.opus
+CPU Temp=35.242
+recording file:/home/pi/recordings/lake week-2021-07-06--14-46-08-25.opus
+CPU Temp=35.78
+recording file:/home/pi/recordings/lake week-2021-07-06--15-46-13-26.opus
+CPU Temp=34.704
+recording file:/home/pi/recordings/lake week-2021-07-06--16-46-16-27.opus
+CPU Temp=34.166
+recording file:/home/pi/recordings/lake week-2021-07-06--17-46-19-28.opus
+CPU Temp=32.014
+recording file:/home/pi/recordings/lake week-2021-07-06--18-46-19-29.opus
+CPU Temp=31.476
+recording file:/home/pi/recordings/lake week-2021-07-06--19-46-24-30.opus
+CPU Temp=31.476
+recording file:/home/pi/recordings/lake week-2021-07-06--20-46-27-31.opus
+CPU Temp=30.938
+recording file:/home/pi/recordings/lake week-2021-07-06--21-46-29-32.opus
+CPU Temp=30.4
+recording file:/home/pi/recordings/lake week-2021-07-06--22-46-29-33.opus
+CPU Temp=30.4
+recording file:/home/pi/recordings/lake week-2021-07-06--23-46-31-34.opus
+CPU Temp=30.4
+recording file:/home/pi/recordings/lake week-2021-07-07--00-46-38-35.opus
+CPU Temp=29.324
+recording file:/home/pi/recordings/lake week-2021-07-07--01-46-41-36.opus
+CPU Temp=29.862
+recording file:/home/pi/recordings/lake week-2021-07-07--02-46-43-37.opus
+CPU Temp=29.324
+recording file:/home/pi/recordings/lake week-2021-07-07--03-46-43-38.opus
+CPU Temp=29.324
+recording file:/home/pi/recordings/lake week-2021-07-07--04-46-43-39.opus
+CPU Temp=29.324
+recording file:/home/pi/recordings/lake week-2021-07-07--05-46-45-40.opus
+CPU Temp=29.324
+recording file:/home/pi/recordings/lake week-2021-07-07--06-46-46-41.opus
+CPU Temp=30.4
+recording file:/home/pi/recordings/lake week-2021-07-07--07-46-53-42.opus
+CPU Temp=30.4
+recording file:/home/pi/recordings/lake week-2021-07-07--08-47-03-43.opus
+CPU Temp=31.476
+recording file:/home/pi/recordings/lake week-2021-07-07--09-47-09-44.opus
+CPU Temp=32.014
+recording file:/home/pi/recordings/lake week-2021-07-07--10-47-22-45.opus
+CPU Temp=32.552
+recording file:/home/pi/recordings/lake week-2021-07-07--11-47-27-46.opus
+CPU Temp=33.628
+recording file:/home/pi/recordings/lake week-2021-07-07--12-47-40-47.opus
+CPU Temp=33.628
+recording file:/home/pi/recordings/lake week-2021-07-07--13-47-41-48.opus
+CPU Temp=33.628
+recording file:/home/pi/recordings/lake week-2021-07-07--14-47-55-49.opus
+CPU Temp=34.704
+recording file:/home/pi/recordings/lake week-2021-07-07--15-48-01-50.opus
+CPU Temp=35.242
+recording file:/home/pi/recordings/lake week-2021-07-07--16-48-09-51.opus
+CPU Temp=35.78
+recording file:/home/pi/recordings/lake week-2021-07-07--17-48-15-52.opus
+CPU Temp=34.704
+recording file:/home/pi/recordings/lake week-2021-07-07--18-48-15-53.opus
+CPU Temp=33.628
+recording file:/home/pi/recordings/lake week-2021-07-07--19-48-23-54.opus
+CPU Temp=32.552
+recording file:/home/pi/recordings/lake week-2021-07-07--20-48-25-55.opus
+CPU Temp=31.476
+recording file:/home/pi/recordings/lake week-2021-07-07--21-48-30-56.opus
+CPU Temp=30.938
+recording file:/home/pi/recordings/lake week-2021-07-07--22-48-32-57.opus
+CPU Temp=30.938
+recording file:/home/pi/recordings/lake week-2021-07-07--23-48-37-58.opus
+CPU Temp=29.862
+recording file:/home/pi/recordings/lake week-2021-07-08--00-48-38-59.opus
+CPU Temp=29.862
+recording file:/home/pi/recordings/lake week-2021-07-08--01-48-38-60.opus
+CPU Temp=29.324
+recording file:/home/pi/recordings/lake week-2021-07-08--02-48-38-61.opus
+CPU Temp=28.786
+recording file:/home/pi/recordings/lake week-2021-07-08--03-48-39-62.opus
+CPU Temp=28.248
+recording file:/home/pi/recordings/lake week-2021-07-08--04-48-42-63.opus
+CPU Temp=28.248
+recording file:/home/pi/recordings/lake week-2021-07-08--05-48-52-64.opus
+CPU Temp=28.248
+recording file:/home/pi/recordings/lake week-2021-07-08--06-48-52-65.opus
+CPU Temp=29.324
+recording file:/home/pi/recordings/lake week-2021-07-08--07-48-51-66.opus
+CPU Temp=30.938
+recording file:/home/pi/recordings/lake week-2021-07-08--08-48-57-67.opus
+CPU Temp=32.014
+recording file:/home/pi/recordings/lake week-2021-07-08--09-48-58-68.opus
+CPU Temp=33.09
+recording file:/home/pi/recordings/lake week-2021-07-08--10-48-58-69.opus
+CPU Temp=34.166
+recording file:/home/pi/recordings/lake week-2021-07-08--11-49-02-70.opus
+CPU Temp=34.704
+recording file:/home/pi/recordings/lake week-2021-07-08--12-49-06-71.opus
+CPU Temp=35.78
+recording file:/home/pi/recordings/lake week-2021-07-08--13-49-06-72.opus
+CPU Temp=35.78
+recording file:/home/pi/recordings/lake week-2021-07-08--14-49-06-73.opus
+CPU Temp=35.78
+recording file:/home/pi/recordings/lake week-2021-07-08--15-49-12-74.opus
+CPU Temp=36.856
+recording file:/home/pi/recordings/lake week-2021-07-08--16-49-12-75.opus
+CPU Temp=36.318
+recording file:/home/pi/recordings/lake week-2021-07-08--17-49-21-76.opus
+CPU Temp=36.856
+recording file:/home/pi/recordings/lake week-2021-07-08--18-49-29-77.opus
+CPU Temp=35.78
+recording file:/home/pi/recordings/lake week-2021-07-08--19-49-29-78.opus
+CPU Temp=34.166
+recording file:/home/pi/recordings/lake week-2021-07-08--20-49-29-79.opus
+
+*+*******************************
+Starting Run at2021-07-08 09:04:45 PM
+ Run will produce 18 files each of 60.0 minutes.
+Path:/home/pi/recordings/
+Audio Cards/n0->ADCX140: bcm2835-i2s-dir-hifi dir-hifi-0 (hw:0,0)
+1->sysdefault
+2->lavrate
+3->samplerate
+4->speexrate
+5->pulse
+6->upmix
+7->vdownmix
+8->default
+Full Device Info:{'index': 0, 'structVersion': 2, 'name': 'ADCX140: bcm2835-i2s-dir-hifi dir-hifi-0 (hw:0,0)', 'hostApi': 0, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.005804988662131519, 'defaultLowOutputLatency': -1.0, 'defaultHighInputLatency': 0.034829931972789115, 'defaultHighOutputLatency': -1.0, 'defaultSampleRate': 44100.0}
+is format supported? True
+Creating Album: lake thursday at lakeshore on 2021-07-08 09:04:46 PM
+CPU Temp=31.476
+recording file:/home/pi/recordings/lake thursday-2021-07-08--21-04-46-1.opus
+CPU Temp=31.476
+recording file:/home/pi/recordings/lake thursday-2021-07-08--22-04-51-2.opus
+CPU Temp=29.862
+recording file:/home/pi/recordings/lake thursday-2021-07-08--23-04-58-3.opus
+CPU Temp=29.862
+recording file:/home/pi/recordings/lake thursday-2021-07-09--00-04-58-4.opus
+CPU Temp=28.786
+recording file:/home/pi/recordings/lake thursday-2021-07-09--01-05-00-5.opus
+CPU Temp=27.172
+recording file:/home/pi/recordings/lake thursday-2021-07-09--02-05-07-6.opus
+CPU Temp=27.172
+recording file:/home/pi/recordings/lake thursday-2021-07-09--03-05-07-7.opus
+CPU Temp=26.634
+recording file:/home/pi/recordings/lake thursday-2021-07-09--04-05-13-8.opus
+CPU Temp=26.096
+recording file:/home/pi/recordings/lake thursday-2021-07-09--05-05-13-9.opus
+CPU Temp=26.096
+recording file:/home/pi/recordings/lake thursday-2021-07-09--06-05-13-10.opus
+CPU Temp=27.172
+recording file:/home/pi/recordings/lake thursday-2021-07-09--07-05-13-11.opus
+CPU Temp=30.4
+recording file:/home/pi/recordings/lake thursday-2021-07-09--08-05-19-12.opus
+CPU Temp=33.628
+recording file:/home/pi/recordings/lake thursday-2021-07-09--09-05-19-13.opus
+CPU Temp=35.78
+recording file:/home/pi/recordings/lake thursday-2021-07-09--10-05-19-14.opus
+CPU Temp=38.47
+recording file:/home/pi/recordings/lake thursday-2021-07-09--11-05-21-15.opus
+CPU Temp=48.154
+recording file:/home/pi/recordings/lake thursday-2021-07-09--12-05-22-16.opus
+CPU Temp=50.844
+recording file:/home/pi/recordings/lake thursday-2021-07-09--13-05-27-17.opus
+CPU Temp=55.148
+recording file:/home/pi/recordings/lake thursday-2021-07-09--14-05-27-18.opus
+finished recording
+Finished recording at 2021-07-09 03:05:29 PM
+
+*+*******************************
+Starting Run at2021-07-09 08:39:13 PM
+ Run will produce 18 files each of 60.0 minutes.
+Path:/home/pi/recordings/
+Audio Cards/n0->ADCX140: bcm2835-i2s-dir-hifi dir-hifi-0 (hw:0,0)
+1->sysdefault
+2->lavrate
+3->samplerate
+4->speexrate
+5->pulse
+6->upmix
+7->vdownmix
+8->default
+Full Device Info:{'index': 0, 'structVersion': 2, 'name': 'ADCX140: bcm2835-i2s-dir-hifi dir-hifi-0 (hw:0,0)', 'hostApi': 0, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.005804988662131519, 'defaultLowOutputLatency': -1.0, 'defaultHighInputLatency': 0.034829931972789115, 'defaultHighOutputLatency': -1.0, 'defaultSampleRate': 44100.0}
+is format supported? True
+Creating Album: field friday at airfield on 2021-07-09 08:39:14 PM
+CPU Temp=29.862
+recording file:/home/pi/recordings/field friday-2021-07-09--20-39-14-1.opus
+CPU Temp=32.552
+recording file:/home/pi/recordings/field friday-2021-07-09--21-39-16-2.opus
+CPU Temp=30.4
+recording file:/home/pi/recordings/field friday-2021-07-09--22-39-16-3.opus
+CPU Temp=30.4
+recording file:/home/pi/recordings/field friday-2021-07-09--23-39-16-4.opus
+CPU Temp=29.324
+recording file:/home/pi/recordings/field friday-2021-07-10--00-39-17-5.opus
+CPU Temp=28.248
+recording file:/home/pi/recordings/field friday-2021-07-10--01-39-17-6.opus
+CPU Temp=28.786
+recording file:/home/pi/recordings/field friday-2021-07-10--02-39-17-7.opus
+CPU Temp=28.786
+recording file:/home/pi/recordings/field friday-2021-07-10--03-39-18-8.opus
+CPU Temp=28.786
+recording file:/home/pi/recordings/field friday-2021-07-10--04-39-18-9.opus
+CPU Temp=28.248
+recording file:/home/pi/recordings/field friday-2021-07-10--05-39-18-10.opus
+CPU Temp=30.938
+recording file:/home/pi/recordings/field friday-2021-07-10--06-39-20-11.opus
+CPU Temp=37.932
+recording file:/home/pi/recordings/field friday-2021-07-10--07-39-29-12.opus
+CPU Temp=45.464
+recording file:/home/pi/recordings/field friday-2021-07-10--08-39-30-13.opus
+CPU Temp=49.23
+recording file:/home/pi/recordings/field friday-2021-07-10--09-39-32-14.opus
+CPU Temp=52.458
+recording file:/home/pi/recordings/field friday-2021-07-10--10-39-32-15.opus
+CPU Temp=51.382
+recording file:/home/pi/recordings/field friday-2021-07-10--11-39-33-16.opus
+CPU Temp=53.534
+recording file:/home/pi/recordings/field friday-2021-07-10--12-39-40-17.opus
+CPU Temp=48.692
+recording file:/home/pi/recordings/field friday-2021-07-10--13-39-40-18.opus
+finished recording
+Finished recording at 2021-07-10 02:39:41 PM
+
+*+*******************************
+Starting Run at2021-07-10 05:47:31 PM
+ Run will produce 18 files each of 60.0 minutes.
+Path:/home/pi/recordings/
+Audio Cards/n0->ADCX140: bcm2835-i2s-dir-hifi dir-hifi-0 (hw:0,0)
+1->sysdefault
+2->lavrate
+3->samplerate
+4->speexrate
+5->pulse
+6->upmix
+7->vdownmix
+8->default
+Full Device Info:{'index': 0, 'structVersion': 2, 'name': 'ADCX140: bcm2835-i2s-dir-hifi dir-hifi-0 (hw:0,0)', 'hostApi': 0, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.005804988662131519, 'defaultLowOutputLatency': -1.0, 'defaultHighInputLatency': 0.034829931972789115, 'defaultHighOutputLatency': -1.0, 'defaultSampleRate': 44100.0}
+is format supported? True
+Creating Album: pond saturday at pond on 2021-07-10 05:47:32 PM
+CPU Temp=36.856
+recording file:/home/pi/recordings/pond saturday-2021-07-10--17-47-32-1.opus
+CPU Temp=42.236
+recording file:/home/pi/recordings/pond saturday-2021-07-10--18-47-33-2.opus
+CPU Temp=40.622
+recording file:/home/pi/recordings/pond saturday-2021-07-10--19-47-33-3.opus
+CPU Temp=37.932
+recording file:/home/pi/recordings/pond saturday-2021-07-10--20-47-37-4.opus
+CPU Temp=34.704
+recording file:/home/pi/recordings/pond saturday-2021-07-10--21-47-41-5.opus
+CPU Temp=34.166
+recording file:/home/pi/recordings/pond saturday-2021-07-10--22-47-42-6.opus
+CPU Temp=33.09
+recording file:/home/pi/recordings/pond saturday-2021-07-10--23-47-47-7.opus
+CPU Temp=32.014
+recording file:/home/pi/recordings/pond saturday-2021-07-11--00-47-52-8.opus
+CPU Temp=30.938
+recording file:/home/pi/recordings/pond saturday-2021-07-11--01-47-57-9.opus
+CPU Temp=30.4
+recording file:/home/pi/recordings/pond saturday-2021-07-11--02-47-59-10.opus
+CPU Temp=30.938
+recording file:/home/pi/recordings/pond saturday-2021-07-11--03-47-59-11.opus
+CPU Temp=29.862
+recording file:/home/pi/recordings/pond saturday-2021-07-11--04-47-59-12.opus
+CPU Temp=29.324
+recording file:/home/pi/recordings/pond saturday-2021-07-11--05-47-59-13.opus
+CPU Temp=29.862
+recording file:/home/pi/recordings/pond saturday-2021-07-11--06-47-59-14.opus
+CPU Temp=31.476
+recording file:/home/pi/recordings/pond saturday-2021-07-11--07-48-01-15.opus
+CPU Temp=33.628
+recording file:/home/pi/recordings/pond saturday-2021-07-11--08-48-07-16.opus
+CPU Temp=35.78
+recording file:/home/pi/recordings/pond saturday-2021-07-11--09-48-10-17.opus
+CPU Temp=39.008
+recording file:/home/pi/recordings/pond saturday-2021-07-11--10-48-12-18.opus
+finished recording
+Finished recording at 2021-07-11 11:48:17 AM
+
+*+*******************************
+Starting Run at2021-07-12 06:33:19 PM
+ Run will produce 12 files each of 15.0 minutes.
+Path:/home/pi/recordings/
+Audio Cards/n0->ADCX140: bcm2835-i2s-dir-hifi dir-hifi-0 (hw:0,0)
+1->sysdefault
+2->lavrate
+3->samplerate
+4->speexrate
+5->pulse
+6->upmix
+7->vdownmix
+8->default
+Full Device Info:{'index': 0, 'structVersion': 2, 'name': 'ADCX140: bcm2835-i2s-dir-hifi dir-hifi-0 (hw:0,0)', 'hostApi': 0, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.005804988662131519, 'defaultLowOutputLatency': -1.0, 'defaultHighInputLatency': 0.034829931972789115, 'defaultHighOutputLatency': -1.0, 'defaultSampleRate': 44100.0}
+is format supported? True
+Creating Album: AC power out at house on 2021-07-12 06:33:20 PM
+CPU Temp=36.856
+recording file:/home/pi/recordings/AC power out-2021-07-12--18-33-20-1.flac
+CPU Temp=36.318
+recording file:/home/pi/recordings/AC power out-2021-07-12--18-48-22-2.flac
+CPU Temp=35.78
+recording file:/home/pi/recordings/AC power out-2021-07-12--19-03-22-3.flac
+CPU Temp=35.78
+recording file:/home/pi/recordings/AC power out-2021-07-12--19-18-21-4.flac
+CPU Temp=35.78
+recording file:/home/pi/recordings/AC power out-2021-07-12--19-33-21-5.flac
+CPU Temp=35.78
+recording file:/home/pi/recordings/AC power out-2021-07-12--19-48-21-6.flac
+CPU Temp=36.318
+recording file:/home/pi/recordings/AC power out-2021-07-12--20-03-21-7.flac
+CPU Temp=35.78
+recording file:/home/pi/recordings/AC power out-2021-07-12--20-18-21-8.flac

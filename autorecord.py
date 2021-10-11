@@ -12,7 +12,7 @@
 # ip link set dev <interface> down
 
 #Can launch using
-#   /home/pi/code/autorecord7.py &
+#   /home/pi/code/autorecord.py &
 
 
 # ## Library for ALSA

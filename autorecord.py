@@ -1,10 +1,18 @@
 #!/usr/bin/env python3
 # coding: utf-8
 
-# # Code for long term recording of sounds for Raspberry Pi
+# # Code for long term recording of sounds for Raspberry
+
+# # Not complete
+# * Have option to turn off Wifi after recording starts
+# * Have option to turn it back on when recording is finished
+# * command to use is 'sudo ifconfig wlan0 down' - this was tested
+# * note that the above is deprecated - so may need to switch to:
+# ip link set dev <interface> up
+# ip link set dev <interface> down
 
 #Can launch using
-#   /home/pi/code/autorecord3.py &
+#   /home/pi/code/autorecord7.py &
 
 
 # ## Library for ALSA
@@ -281,10 +289,7 @@ def editmeta_command(outfile,tracknumber,tracktotal,comment, location):
     return command
     
 
-def preexec_fn():
-    pid = os.getpid()
-    ps = psutil.Process(pid)
-    ps.set_nice(-10)
+
 
 
 
@@ -334,6 +339,9 @@ def record_sounds(adc, enc,file_path, file_count, title="Sound Recording",
           time.strftime("%Y-%m-%d")+time.strftime(" %I:%M:%S %p")+"\n")
 
     logfile.flush()
+    print("Creating Album: "+ album_string+" on " +
+          time.strftime("%Y-%m-%d")+time.strftime(" %I:%M:%S %p")+"\n")
+    
 
     # ping-pong between two processes for continuous processing
     ping = 0
@@ -426,11 +434,21 @@ def init_arecord():
 
 
 def shutdown():
-    command = "/usr/bin/sudo /sbin/shutdown -h now"
-    process = sp.Popen(command.split(),stdout=subprocess.PIPE)
-    output = process.communicate()[0]
-    print(output)
-    return
+    command = "/usr/bin/sudo /usr/sbin/shutdown -h now"
+    process = sp.Popen(command.split(),stdout=sp.PIPE)
+    #output = process.communicate()[0]
+    #print(output)
+    #return output
+
+def wireless(state):
+
+    if state:
+        command = "/usr/bin/sudo /usr/sbin/ifconfig wlan0 up"
+    else:
+        command = "/usr/bin/echo wifi_going_down_in_120_sec && /usr/bin/sleep 120 && /usr/bin/sudo /usr/sbin/ifconfig wlan0 down"
+        #command = "/usr/bin/sudo /usr/sbin/ifconfig wlan0 down"
+    process = sp.Popen(command,shell=True) #using shell, but command is fixed
+
 
 #Main code
 
@@ -458,6 +476,7 @@ if config.sections() == []:
     config['settings']["analoggain"] = "30"
     config['settings']["digitalgain"] = "20"
     config['settings']["turnoff"] = "No"
+    config['settings']["wifi_on_during_recording"] = "Yes"
     config['settings']["fileminutes"] = "30"
     config['settings']["logfile"] = "logfile.txt"
     print("Writing out a new 'config.ini' file")
@@ -481,6 +500,7 @@ elif config['state']['run'] == "record":
     hours = float(config['settings']["Hours"])
     fileminutes = float(config['settings']["fileminutes"])
     turnoff = config['settings']["turnOff"]
+    wifi_on = config['settings']["wifi_on_during_recording"]
     logfile = open(config['settings']['logfile'], "a")
     logfile.write("\n"+"*+*"+"*"*30+"\n")
 
@@ -510,7 +530,12 @@ elif config['state']['run'] == "record":
     #debug
     setup_adc(adc1,again=again,dgain=dgain)
 
-    
+    print("Wifi flag = ",wifi_on)
+
+    if wifi_on == "No":
+        wireless(False)
+        logfile.write("Wifi will be shut down during recording"+"\n")
+        logfile.flush()
 
     record_sounds(adc=adc1,enc=enc,file_path=file_path,file_count=file_count,
                   title=title, location = location, artist_string= artist,
@@ -522,6 +547,12 @@ elif config['state']['run'] == "record":
     with open(configfilename,'w') as cfile:
         config.write(cfile)
     logfile.write("Finished recording at "+time.strftime("%Y-%m-%d %I:%M:%S %p")+"\n")
+
+    if wifi_on == "No":
+        wireless(True)
+        logfile.write("Wifi turned back on at "+time.strftime("%Y-%m-%d %I:%M:%S %p")+"\n")
+    
+    
     if turnoff == "Yes":
         logfile.write("Shutting down at "+time.strftime("%Y-%m-%d %I:%M:%S %p")+"\n")
         logfile.close()

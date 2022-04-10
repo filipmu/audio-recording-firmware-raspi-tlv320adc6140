@@ -438,6 +438,9 @@ class TLV320ADC:
             
         return (val-1)/2 - 100
 
+    def set_pre_input_gain(self,channel,pre_input_gain_db = 0.0):
+        self.pre_input_gain_db[channel-1] = pre_input_gain_db 
+        return pre_input_gain_db
 
     def set_digital_gain_calibration(self,channel, calibration_db = 0.0):
         

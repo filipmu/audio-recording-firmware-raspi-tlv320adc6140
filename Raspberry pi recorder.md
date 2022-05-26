@@ -333,6 +333,8 @@ ls /lib/udev/rc_keymaps/
 
 Copy the file `rc6_mce.toml` to your home directory.  Then you can edit the keys names.  Key names need to match the ones in here: [linux/input-event-codes.h at d2d1ac07330bfb8e896bd58a6ac3a950d1d96fde · raspberrypi/linux · GitHub](https://github.com/raspberrypi/linux/blob/d2d1ac07330bfb8e896bd58a6ac3a950d1d96fde/include/uapi/linux/input-event-codes.h)
 
+Here is my [modified keyfile](rc_keymap/rc6_mce.toml).
+
 Put the modified keytable file `rc6_mce.toml`_in the directory `/etc/rc_keymaps/`
 
 ```shell

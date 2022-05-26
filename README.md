@@ -19,4 +19,4 @@ pip install PyAudio
 pip install numpy
 ```
 
-For detailed instructions - see [hRaspberry pi recorder.md](Raspberry%20pi%20recorder.md)
+For detailed instructions - see [Raspberry pi recorder.md](Raspberry%20pi%20recorder.md)

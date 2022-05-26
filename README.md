@@ -19,3 +19,4 @@ pip install PyAudio
 pip install numpy
 ```
 
+For detailed instructions - see https://github.com/filipmu/audio-recording-firmware-raspi-tlv320adc6140/blob/main/Raspberry%20pi%20recorder.md
